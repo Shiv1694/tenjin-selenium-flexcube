@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.flexcube.framework.listeners.TestListener"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="Cif_CreationTest"/>
+        </classes>
+    </test>
+</suite>
