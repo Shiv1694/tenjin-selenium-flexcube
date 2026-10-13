@@ -13,8 +13,6 @@ public class ExtentManager {
 			extent = new ExtentReports();
 			extent.attachReporter(sparkReporter);
 		}
-
 		return extent;
 	}
-
 }

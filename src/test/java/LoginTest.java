@@ -14,13 +14,11 @@ public class LoginTest extends BaseTest {
 		LoginPage loginPage = new LoginPage();
 		LogoutPage logoutPage = new LogoutPage();
 		PopupHandler popupHandler = new PopupHandler();
-		
+
 		loginPage.login();
 		WebDriverUtility.captureScreenshot("before login");
 		popupHandler.clickOkButton();
 		WebDriverUtility.captureScreenshot("after login");
 		logoutPage.logout();
-		
-
 	}
 }
